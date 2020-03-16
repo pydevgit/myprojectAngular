@@ -1,0 +1,19 @@
+h2 {
+  background-color: darkgray;
+  text-align: center;
+  color: white;
+
+}
+h4 {
+  background-color: turquoise;
+  text-align: center;
+  color: black;
+}
+
+.education-details tr {
+  text-align: center;
+
+}
+.education-details td {
+  text-align: center;
+}
