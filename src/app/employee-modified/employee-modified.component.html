@@ -1,0 +1,8 @@
+<h2>Employee Table {{modifiedName}}</h2>
+
+<!--here we want to print a complete table by using loop-->
+<table>
+  <ul *ngFor="let employee of employees">
+    <li> {{ employee.id }} . {{ employee.name }} - {{ employee.age }}</li>
+  </ul>
+</table>

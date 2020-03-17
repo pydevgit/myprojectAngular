@@ -1,0 +1,15 @@
+header a {
+  background-color: black;
+  color: lightblue;
+  padding: 10px 25px;
+  font-size: 25px;
+  text-decoration: none;
+}
+ a.active {
+  background-color: burlywood;
+  color: brown;
+}
+header a:hover {
+  background-color: burlywood;
+  color: brown;
+}

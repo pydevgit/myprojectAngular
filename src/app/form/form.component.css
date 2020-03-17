@@ -1,7 +1,8 @@
-h2 {
-  background-color: darkgray;
+.h2 {
+  background-color: cadetblue;
   text-align: center;
-  color: white;
+  color: black;
+
 
 }
 h4 {
@@ -10,10 +11,33 @@ h4 {
   color: black;
 }
 
+
+.personal-information tr td
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+/* education-details */
 .education-details tr {
   text-align: center;
 
 }
 .education-details td {
   text-align: center;
+}
+
+/* work-experience */
+
+.work-experience tr {
+  text-align: center;
+
+}
+.work-experience td {
+  text-align: center;
+}
+
+
+tr td {
+  border-radius: 10px;
 }
